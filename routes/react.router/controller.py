@@ -1,5 +1,3 @@
-import flask
-import season
 import markupsafe
 
 paths = wiz.request.segment.path.split("/")
