@@ -4,6 +4,6 @@
     "route": "/<path:path>/",
     "viewuri": "/main",
     "created": "2021-11-28 14:09:14",
-    "updated": "2022-08-10 20:42:31",
+    "updated": "2022-08-16 14:05:39",
     "controller": "view"
 }

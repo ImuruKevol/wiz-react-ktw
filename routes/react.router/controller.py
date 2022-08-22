@@ -1,12 +1,11 @@
 import markupsafe
 
 paths = wiz.request.segment.path.split("/")
-path = "/".join(paths[:-1])
-app_id = paths[-1]
 app = wiz.model("react/main")("build").load("")
 
 if paths[0] == "build":
-    ext = app_id.split(".")[-1]
+    filename = paths[-1]
+    ext = filename.split(".")[-1]
     extmap = {
         "js": "javascript",
         "css": "css",

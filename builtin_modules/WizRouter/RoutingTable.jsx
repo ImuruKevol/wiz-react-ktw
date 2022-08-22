@@ -4,10 +4,6 @@ import Search from "page.search";
 
 const RouteTable = [
     {
-        path: "/",
-        element: <Main />,
-    },
-    {
         path: "/main",
         element: <Main />,
     },
