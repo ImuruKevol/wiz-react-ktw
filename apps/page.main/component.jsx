@@ -26,7 +26,7 @@ const Test2 = ({ item, $index }) => {
 }
 
 window.app.controller('test-app', async ($sce, $scope, $timeout) => {
-    $scope.text = "123123123";
+    $scope.text = "1231231232222";
     $scope.alert = () => {
         alert("!!!");
     }
